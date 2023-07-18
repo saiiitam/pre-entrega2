@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@200;400;700 & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* TIPOGRAFIAS
+font-family: 'Poppins', sans-serif;
+} */
+
+header {
+    width: 100%;
+    padding-bottom: 1.4375rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: .875rem;
+    padding: .625rem 0rem;
+    background-color: white;
+}
+
+.icon-llamadaubi {
+    display: flex;
+    gap: .9375rem;
+}
+
+.header-div ul {
+    display: flex;
+    list-style-type: none;
+    gap: 1.25rem;
+    padding-right: .625rem;
+}
+
+.header-div ul li a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 1rem;
+}
+
+.header-div img {
+    width: 1.25rem;
+    height: auto;
+}
+
+/* NAV BARRA */
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    padding: 1.25rem 0rem;
+}
+
+.header-nav h1{
+    font-size: 1.875rem;
+    padding-left: .9375rem;
+}
+
+.navbar{
+    display: flex; 
+    gap: 1.25rem;
+    list-style: none;
+    padding-right: .9375rem;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    padding-right: .625rem;
+}
+
+.navbar li a:hover{
+    color: rgb(58, 58, 58);
+}
+
+/* INICIO-MAIN */
+
+body {
+    background-image: url("../assets/img/resources-web-ONG/Fondo-Pagina-Web.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-uno {
+    width: 100%;
+    display: flex;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 3.125rem 0rem;
+    justify-content: center;
+    gap: 1.25rem;
+}
+
+.titulo1 {
+    font-size: 6.25rem;
+}
+
+.parrafo-1 {
+    width: 25rem;
+    
+}
+
+.section-dos {
+    width: 100%;
+    display: flex;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 3.125rem;
+    justify-content: center;
+    gap: 1.25rem;
+}
+
+.titulo2 {
+    font-size: 5rem;
+}
+
+.parrafo-2 {
+    width: 25rem;
+    text-align: right;
+    
+}
+
+.section-imagenes {
+    width: 87.5rem;
+    background-image: url("../assets/img/resources-web-ONG/Fondo-img-Inicio-Pagina-Web.jpg");
+    justify-content: center;
+}
+
+/* MAIN CIERRE*/
+
+/* SERVICIOS */
+
+.main-servicios {
+    display: flex;
+    width: 37.5rem;
+    height: 18.75rem;
+}
+
+.main-servicios img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: 5s ease;
+}
+
+.main-servicios img:hover {
+    cursor: crosshair;
+    width: 18.75rem;
+    opacity: 1;
+    filter: contrast(120%);
+
+}
+
+/* FIN SERVICIOS */
